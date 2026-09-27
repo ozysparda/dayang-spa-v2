@@ -81,7 +81,7 @@ export const SHIFT_LABEL = {
   sp2: 'Shift SP2 (12-15, 18-23)',
   malam: 'Shift Malam',
   '15': 'Shift 15 (15-23)',
-  '11': 'Shift 11',
+  '11': 'Shift 11 (11-23)',
   st: 'Shift ST (Short Time)'
 };
 export const SHIFT_SHORT_CODE = { sp: 'Sp', sp1: 'Sp¹', sp2: 'Sp²', malam: '15', '15': '15', '11': '11', st: 'St' };

@@ -41,6 +41,11 @@ export function getShiftWindowStatus(shift, now = new Date()) {
     return 'diluar_jam';
   }
 
+  if (shift === SHIFTS.T11) {
+    if (minutes >= t(11) && minutes < t(23)) return 'aktif';
+    return 'diluar_jam';
+  }
+
   if (shift === SHIFTS.ST) {
     if (minutes >= t(11) && minutes < t(17)) return 'aktif';
     return 'diluar_jam';
