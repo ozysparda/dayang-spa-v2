@@ -611,6 +611,13 @@ export default function StatusTerapisPage({ active, profile }) {
       for (const bId of bookingIdsOf(t)) {
         await markBookingPaid(t.currentOutletId, bId, t.id, method, disc, reason);
       }
+      // Jika jam treatment sudah lewat, langsung bebaskan terapis (tanpa
+      // menunggu auto-free ≤1menit). Semua booking tetap utuh — yang tidak
+      // lunas pun tetap muncul di daftar belum bayar; hanya sesi terapis
+      // yang dibersihkan.
+      if ((t.endAt || 0) <= Date.now()) {
+        await setTherapistStatusManual(t.id, 'free');
+      }
       setMessage(`Booking ${t.name} ditandai lunas (${PAYMENT_METHOD_LABEL[method]}).`);
       const names = Array.isArray(t.currentTreatmentNames) && t.currentTreatmentNames.length
         ? t.currentTreatmentNames
