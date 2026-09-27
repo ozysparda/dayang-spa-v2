@@ -1,0 +1,90 @@
+﻿id,name,price,category,duration_minutes,commission_percent,uses_oil
+55db17aa-f621-4e63-8788-29b49b9c83cf,Lombok Massage (60 Min),200000,Massage,60,10,true
+f049d861-9e76-475a-9dbd-7c8d489b72b7,Lombok Massage (90 Min),300000,Massage,90,10,true
+3fd35108-12eb-4248-a743-b25617530561,Stress Relieving Massage (60 Min),200000,Massage,60,10,true
+703f6a42-3f93-42ac-98df-ad8d93b64e48,Stress Relieving Massage (90 Min),300000,Massage,90,10,true
+fbdc90d2-f708-4b0d-89eb-fceb0ebab622,Aloevera Massage (60 Min),200000,Massage,60,10,true
+e603fa52-1cc2-4c1e-8fa3-0e6edabf9737,Aloevera Massage (90 Min),300000,Massage,90,10,true
+455c48f3-2ba2-4925-a789-d56c05d36af5,Balinese Massage (60 Min),200000,Massage,60,10,true
+eaea9fe2-5c64-45d5-b8ab-7d3f5c454800,Balinese Massage (90 Min),300000,Massage,90,10,true
+56f3a0c7-a87a-4674-9051-7ff6a9c3fdd9,Thai Massage (60 Min),200000,Massage,60,10,true
+ec22cb46-5835-4c0f-878b-a0c10c96b19b,Thai Massage (90 Min),300000,Massage,90,10,true
+56c1f01e-581c-4c90-b192-fc5d46fdc9b5,After Surf Massage (60 Min),200000,Massage,60,10,true
+c9e50575-8844-4664-bfe9-b5fff5a340ce,After Surf Massage (90 Min),300000,Massage,90,10,true
+4df1739b-3773-46fb-a28e-8171cf9315d8,Deep Tissue Massage (60 Min),200000,Massage,60,10,true
+6af32e36-437b-4a47-b3c9-b06e3376c10b,Deep Tissue Massage (90 Min),300000,Massage,90,10,true
+71d1840f-a88e-416e-80d3-e3ad314e8295,Herbal Compress (90 Min),400000,Massage,90,10,true
+a34a0142-7f03-448d-8bf6-ba1eb51ccf83,Hot Stone (60 Min),300000,Massage,60,10,true
+4d1a9a12-cfa0-49da-b5bb-aadf7cf20d02,Hot Stone (90 Min),400000,Massage,90,10,true
+c5de2eae-2a47-4f5d-ba2d-7847e2822554,Head Massage (30 Min),100000,Massage,30,10,false
+11a3ae6c-fc61-4781-b0c8-0796d71790e5,Foot Massage (30 Min),100000,Massage,30,10,false
+2c70a356-cd09-4829-a177-69f074858a27,Foot Massage (60 Min),200000,Massage,60,10,false
+8650b400-f121-44dc-b180-feee3df8f451,Pedicure Only,100000,Nail,45,10,false
+8fb63aff-98ab-4835-afca-b71a8b0ec5d0,Pedicure + Normal Color,150000,Nail,45,10,false
+21ba2c9c-25b0-4934-9387-9b9320e3eb60,Pedicure + Gel Color,250000,Nail,60,10,false
+12c94b90-de9a-4f49-bd9f-35c2b89ae143,Manicure Only,80000,Nail,30,10,false
+90fecf82-7d1d-485f-ab14-f0d3732ce691,Manicure + Normal Color,150000,Nail,45,10,false
+5a86117d-6763-4450-8c9d-34fd2a7cd064,Just Normal Color,80000,Nail,20,10,false
+5ceed1e1-cb7d-4bd7-918b-773c6d02b9a7,Just Gel Color,150000,Nail,30,10,false
+a63b0625-4ee2-48d9-973d-ffb65f7216f9,Nail Art Design (Per Nail),20000,Nail,15,10,false
+54ba1a00-74ae-4270-ae87-b4aba6d3e0c4,Fake Nail (Per Nail),30000,Nail,20,10,false
+9618fdcb-3bc2-4dc0-899c-a44484b84c0a,Fake Nail (Full),280000,Nail,90,10,false
+458b53fb-e892-4850-b1aa-3c21ff37ba37,BIAB Overlay (Per Nail),40000,Nail,20,10,false
+760006fa-46e6-4ca5-802d-1283a2e7888a,BIAB Overlay (Full),480000,Nail,120,10,false
+6807e66a-f042-46e5-a7ad-476c07a123d4,Dinfill BIAB (Per Nail),30000,Nail,20,10,false
+af3e525e-e138-44cc-af36-7a5e91b4bb1b,Dinfill BIAB (Full),280000,Nail,90,10,false
+d51a4e52-7810-49cb-b0c4-1e54c305326b,Acrylic (Per Nail),40000,Nail,20,10,false
+5dcd3b17-1e3a-4be9-8da2-595df3d9817b,Acrylic (Full),480000,Nail,120,10,false
+4f5af01c-995f-407c-8a73-da6b7ddc2f76,BIAB Extension (Per Nail),50000,Nail,25,10,false
+1c5537e5-151b-4da8-ac57-1684304e5c44,BIAB Extension (Full),450000,Nail,120,10,false
+51360667-f0ae-4091-b3af-5cffd50aaeba,Remove Gel Extension (Per Nail),150000,Nail,20,10,false
+82b67d48-b20d-485b-b7eb-7b379175b006,Remove Gel Extension (Full),150000,Nail,60,10,false
+e2396b67-03e5-4d39-8e5d-f7dbe3533595,Remove Hard Gel,100000,Nail,30,10,false
+72acb22d-5d46-4ac7-87f0-96d003e0ff00,Remove Gel,50000,Nail,20,10,false
+6a3afa73-1d9c-48e3-9f8c-15c1b977cb7a,Foot Scrub (30 Min),100000,Body Care,30,10,false
+8caf7f79-5f16-4660-9e7a-8713fd2c6a07,Back Scrub (30 Min),100000,Body Care,30,10,false
+605230c9-8851-4ce8-aca1-2955c4df2888,Facial Treatment (45 Min),150000,Body Care,45,10,false
+5d4e970d-81b4-409e-bb93-e9d10690926d,Body Mask/Wrap (45 Min),150000,Body Care,45,10,false
+1c4ceae6-b186-47db-a33b-c3f5d9fc0876,Body Scrub (45 Min),150000,Body Care,45,10,false
+7459f137-5bee-41b4-bb3f-eeeb41029a94,Ear Candle,100000,Body Care,30,10,false
+a9adc1e1-72ea-41b1-91b2-eeac5775a088,Bikini Line,250000,Waxing,30,10,false
+bd90904b-328f-4288-88c3-47bf9f25ba3a,Brazilian Wax,300000,Waxing,45,10,false
+0fcbaae9-f3c3-48a3-9964-b14eea6b52a1,Full Leg,300000,Waxing,45,10,false
+ebb83b85-7235-4850-8585-d0332d6e9819,Half Leg,200000,Waxing,30,10,false
+bf2bfb17-19ce-4eee-aeb9-99e515c0aeaf,Arm,200000,Waxing,30,10,false
+878a9d1a-8197-40bc-8108-c0f2745aed7f,Half Arm,120000,Waxing,20,10,false
+19eb859d-a392-4974-bde4-df42594c75bb,Under Arm,100000,Waxing,15,10,false
+703d57f0-2e6f-404a-8cf4-d02a67c326e6,Full Stomach/Chest/Back,300000,Waxing,45,10,false
+d7f433e6-c64a-4b6a-8818-bd7f0bafb15e,"Japanese Head Spa By Natural/Product (Scalp Treatment, Massage, Face Mask)",300000,Hair Treatment,60,10,false
+358790f6-8e8c-4993-aa76-57a9afc24e4c,Japanese Creambath,200000,Hair Treatment,45,10,false
+3863f891-5507-4207-9e1e-da234429c767,Japanese Hair Mask,200000,Hair Treatment,45,10,false
+73e6a191-1f76-408c-a2a3-9390338df667,Japanese Hair Spa,200000,Hair Treatment,45,10,false
+d124c3e3-5724-4c63-a54d-92fb1917aeda,Japanese Scalp Treatment,200000,Hair Treatment,45,10,false
+31167e89-4df7-4f38-94c2-de9fed222445,Japanese Facial By Natural/Product,150000,Hair Treatment,45,10,false
+076b8870-07b3-4079-a958-99309077df5b,Japanese Head Massage,150000,Hair Treatment,30,10,false
+17df3934-aa1f-4599-907e-1184479cbfd7,Cut & Style (Female),300000,Hair Treatment,60,10,false
+dd80a6ce-67de-48af-900c-6396ad554659,Cut & Style (Kids),150000,Hair Treatment,45,10,false
+fbbc52b3-3b7f-4527-b70f-e4e0a7ce4dfd,Man Cut,100000,Hair Treatment,30,10,false
+f7945315-0bfa-4d9a-a16a-6ac5e7d7a0b4,Bang,100000,Hair Treatment,20,10,false
+1a45e5d7-04a9-4409-9f84-06c5b71277aa,Trim,125000,Hair Treatment,30,10,false
+8ea7e7cd-870f-4d0b-a8cf-c80f15417f8c,Wash & Blow Dry,150000,Hair Treatment,30,10,false
+1490643b-5e14-466e-b0fe-3bf21f0ef905,Wash & Blow Variation,200000,Hair Treatment,30,10,false
+59407a1f-59dc-4e63-9dcb-b147f489e7d2,Blow,100000,Hair Treatment,20,10,false
+652253c5-e3a3-4389-b5f3-974886a6f34e,Style,100000,Hair Treatment,30,10,false
+bb9b3d9f-fd22-4f97-b644-49e72f92b284,"Highlights, Lowlights & Balayage (Start From)",800000,Hair Treatment,240,10,false
+365fc55d-e2da-4b5f-a17a-1e6460a35849,Keratin Short Hair,800000,Hair Treatment,180,10,false
+2cf7bde4-5676-4dd1-80e7-7abee7534d93,Keratin Medium Hair,1000000,Hair Treatment,210,10,false
+f93d2614-a4d8-40db-aa90-e43a967fab57,Keratin Long Hair,1200000,Hair Treatment,240,10,false
+ae6fd3e0-04e2-4a84-9cf9-54afbe933b26,Keratin Extra Long Hair,1400000,Hair Treatment,270,10,false
+66dbf8cc-1094-4699-b9c4-be1eeee7012f,Lashlift & Tint,250000,Hair Treatment,45,10,false
+f8312ca8-b7bd-4434-b57c-9b8c55070d6b,Eyebrow Laminating & Tint,300000,Hair Treatment,45,10,false
+6737612d-9e4e-4efb-a052-8d3f26f090f5,Eyelash Extension Natural,250000,Hair Treatment,60,10,false
+d92baec9-5ad8-4b49-8c1e-0e14b7d14fda,Eyelash Extension Volume,350000,Hair Treatment,60,10,false
+c6c3bec5-710e-4213-848d-72c5e3b9394c,Eyelash Extension Mega Volume,400000,Hair Treatment,60,10,false
+6d14f536-c7f6-4948-80fe-e2834f8fffb7,Manicure + Gel Color,250000,Nail,45,10,false
+296d4bb6-7402-4a2d-aabe-972177f80c0f,Hair Breading,0,Hair Treatment,240,10,false
+3a9c4eec-aa07-4255-bde0-7033f0131e0c,"Back, Neck & Shoulder (30 Min)",100000,Massage,30,10,true
+cf5a8e7f-5ff9-4fca-adff-a4ded8c878f9,"Back, Neck & Shoulder (60 Min)",200000,Massage,60,10,true
+f3d4a9c0-e6ca-4755-96a1-5ca38ead23c9,Waxing Eyebrow,80000,Waxing,30,10,false
+d56ad8b6-7481-4083-b6ae-e72396dda1d4,Upper Lip,80000,Waxing,30,10,false
+2e8b8ed1-6c25-4560-b352-469f441d6f72,Chin,100000,Waxing,30,10,false

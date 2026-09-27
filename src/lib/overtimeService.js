@@ -2,12 +2,17 @@ import { supabase } from './supabase';
 import { OUTLETS, SHIFTS } from './constants';
 
 // Jam selesai shift normal (menit sejak 00:00) — patokan overtime.
-//  - Shift SP / Split    : 11:00-15:00 & 18:00-23:00 -> selesai 23:00
-//  - Shift Malam         : 15:00-23:00               -> selesai 23:00
-//  - Shift ST / Short    : 11:00-16:00               -> selesai 16:00
+//  - Shift SP1 : 11:00-14:00 & 17:00-22:00   -> selesai 22:00
+//  - Shift SP2 : 12:00-15:00 & 18:00-23:00   -> selesai 23:00
+//  - Shift SP  : 11:00-15:00 & 18:00-23:00   -> selesai 23:00
+//  - Shift Malam / 15: 15:00-23:00           -> selesai 23:00
+//  - Shift ST / Short: 11:00-16:00           -> selesai 16:00
 const SHIFT_END_MINUTES = {
   [SHIFTS.SP]: 23 * 60,
+  [SHIFTS.SP1]: 22 * 60,
+  [SHIFTS.SP2]: 23 * 60,
   [SHIFTS.MALAM]: 23 * 60,
+  [SHIFTS.T15]: 23 * 60,
   [SHIFTS.ST]: 16 * 60
 };
 

@@ -1,0 +1,1 @@
+﻿id,authorization_id,client_id,user_id,redirect_uri,scope,state,resource,code_challenge,code_challenge_method,response_type,status,authorization_code,created_at,expires_at,approved_at,nonce

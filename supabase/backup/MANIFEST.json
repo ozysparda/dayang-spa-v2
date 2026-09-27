@@ -1,0 +1,165 @@
+{
+  "dibuat": "2026-09-26T17:16:12.869Z",
+  "isi": [
+    {
+      "tabel": "auth.audit_log_entries.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.custom_oauth_providers.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.flow_state.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.identities.csv",
+      "baris": 8
+    },
+    {
+      "tabel": "auth.instances.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.mfa_amr_claims.csv",
+      "baris": 27
+    },
+    {
+      "tabel": "auth.mfa_challenges.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.mfa_factors.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.mfa_recovery_code_sets.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.mfa_recovery_codes.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.oauth_authorizations.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.oauth_client_states.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.oauth_clients.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.oauth_consents.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.one_time_tokens.csv",
+      "baris": 1
+    },
+    {
+      "tabel": "auth.refresh_tokens.csv",
+      "baris": 658
+    },
+    {
+      "tabel": "auth.saml_providers.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.saml_relay_states.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.schema_migrations.csv",
+      "baris": 82
+    },
+    {
+      "tabel": "auth.scim_tokens.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.scim_users.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.sessions.csv",
+      "baris": 27
+    },
+    {
+      "tabel": "auth.sso_domains.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.sso_providers.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.users.csv",
+      "baris": 8
+    },
+    {
+      "tabel": "auth.webauthn_challenges.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "auth.webauthn_credentials.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "public.attendance.csv",
+      "baris": 98
+    },
+    {
+      "tabel": "public.audit_logs.csv",
+      "baris": 10750
+    },
+    {
+      "tabel": "public.bookings.csv",
+      "baris": 3935
+    },
+    {
+      "tabel": "public.inventory.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "public.inventory_logs.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "public.oil_inventory.csv",
+      "baris": 96
+    },
+    {
+      "tabel": "public.outlets.csv",
+      "baris": 6
+    },
+    {
+      "tabel": "public.reservations.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "public.stock_requests.csv",
+      "baris": 0
+    },
+    {
+      "tabel": "public.therapists.csv",
+      "baris": 56
+    },
+    {
+      "tabel": "public.treatments.csv",
+      "baris": 89
+    },
+    {
+      "tabel": "public.users.csv",
+      "baris": 7
+    },
+    {
+      "tabel": "public.functions.sql",
+      "baris": 27
+    }
+  ]
+}
