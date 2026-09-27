@@ -51,7 +51,7 @@ function bookingIdsOf(t) {
  *  ASAL terapis, menampilkan semua terapis dengan kode shift & komisi hari
  *  ini, ditandai ❌jam kalau sedang ambil tamu, yang libur dicoret di bawah)
  *  lalu buka WhatsApp siap kirim. */
-function buildAndSendTherapistList({ therapists, dailyCommissions }) {
+function buildAndSendTherapistList({ therapists, dailyTotals }) {
   const today = new Date().toLocaleDateString('id-ID', { day: '2-digit', month: '2-digit', year: 'numeric' });
   let text = `LIST TERAPIS ${today}\n`;
 
@@ -64,10 +64,10 @@ function buildAndSendTherapistList({ therapists, dailyCommissions }) {
     text += `\n${o.name.toUpperCase()}\n`;
     list.forEach((t, i) => {
       const shiftCode = t.shift ? (SHIFT_SHORT_CODE[t.shift] || t.shift) : '';
-      const commission = dailyCommissions[t.id] ? Math.round(dailyCommissions[t.id] / 1000) : '';
+      const totalHarga = dailyTotals[t.id] ? Math.round(dailyTotals[t.id] / 1000) : '';
       const busy = (t.status || 'free') === 'ambil_tamu';
-      const busyMark = busy ? ` ❌${commission} • ${formatClock(t.endAt)}` : '';
-      const tail = busy ? busyMark : (commission !== '' ? ` ${commission}` : '');
+      const busyMark = busy ? ` ❌${totalHarga} • ${formatClock(t.endAt)}` : '';
+      const tail = busy ? busyMark : (totalHarga !== '' ? ` ${totalHarga}` : '');
       text += `${i + 1}. ${t.name} ${shiftCode}${tail}\n`;
     });
   });
@@ -714,9 +714,10 @@ export default function StatusTerapisPage({ active, profile }) {
   // state dailyCommissions yang mungkin belum terisi / sudah kedaluwarsa.
   async function handleSendList() {
     try {
-      const { commissions } = await getTherapistDailyReport(todayId());
+      const { totals, commissions } = await getTherapistDailyReport(todayId());
       setDailyCommissions(commissions);
-      buildAndSendTherapistList({ therapists, dailyCommissions: commissions });
+      setDailyTotals(totals);
+      buildAndSendTherapistList({ therapists, dailyTotals: totals });
     } catch (e) {
       setMessage('Gagal memuat komisi: ' + e.message);
     }
