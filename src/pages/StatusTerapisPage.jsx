@@ -63,7 +63,7 @@ function buildAndSendTherapistList({ therapists, dailyCommissions }) {
     if (list.length === 0) return;
     text += `\n${o.name.toUpperCase()}\n`;
     list.forEach((t, i) => {
-      const shiftCode = t.shift ? SHIFT_SHORT_CODE[t.shift] : '';
+      const shiftCode = t.shift ? (SHIFT_SHORT_CODE[t.shift] || t.shift) : '';
       const commission = dailyCommissions[t.id] ? Math.round(dailyCommissions[t.id] / 1000) : '';
       const busy = (t.status || 'free') === 'ambil_tamu';
       const busyMark = busy ? ` ❌${commission} • ${formatClock(t.endAt)}` : '';
@@ -161,7 +161,7 @@ function TherapistCard({ t, dailyTotal, onManualStatus, onSelesai, onBatalPenuh,
             const win = getShiftWindowStatus(t.shift);
             return (
               <div style={{ fontSize: 11, color: win === 'jeda' ? 'var(--busy)' : 'var(--text-secondary)', fontWeight: win === 'jeda' ? 600 : 400 }}>
-                {SHIFT_LABEL[t.shift]} · {SHIFT_WINDOW_LABEL[win]}
+                {(SHIFT_LABEL[t.shift] || t.shift)} · {SHIFT_WINDOW_LABEL[win] || win || '-'}
               </div>
             );
           })()}
