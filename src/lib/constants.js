@@ -74,17 +74,17 @@ export const ONCALL_PACKAGES = [
 
 export const DEFAULT_ONCALL_COMMISSION_PCT = 30;
 
-export const SHIFTS = { SP: 'sp', SP1: 'sp1', SP2: 'sp2', MALAM: 'malam', ST: 'st', T15: '15', T11: '11' };
+export const SHIFTS = { SP: 'sp', SP1: 'sp1', SP2: 'sp2', MALAM: 'malam', ST: 'st', AD: 'AD', T11: '11' };
 export const SHIFT_LABEL = {
   sp: 'Shift SP (Split)',
   sp1: 'Shift SP1 (11-14, 17-22)',
   sp2: 'Shift SP2 (12-15, 18-23)',
   malam: 'Shift Malam',
-  '15': 'Shift 15 (15-23)',
+  AD: 'Shift AD (15-23)',
   '11': 'Shift 11 (11-23)',
   st: 'Shift ST (Short Time)'
 };
-export const SHIFT_SHORT_CODE = { sp: 'Sp', sp1: 'Sp¹', sp2: 'Sp²', malam: '15', '15': '15', '11': '11', st: 'St' };
+export const SHIFT_SHORT_CODE = { sp: 'Sp', sp1: 'Sp¹', sp2: 'Sp²', malam: '15', AD: 'AD', '11': '11', st: 'St' };
 
 export const STAFF_ROLES = {
   SENIOR_TERAPIS: 'senior_terapis',

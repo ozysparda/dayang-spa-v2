@@ -13,7 +13,7 @@ const SHIFT_END_MINUTES = {
   [SHIFTS.SP1]: 22 * 60,
   [SHIFTS.SP2]: 23 * 60,
   [SHIFTS.MALAM]: 23 * 60,
-  [SHIFTS.T15]: 23 * 60,
+  [SHIFTS.AD]: 23 * 60,
   [SHIFTS.T11]: 23 * 60,
   [SHIFTS.ST]: 16 * 60
 };
