@@ -1,1 +1,0 @@
-﻿id,provider_type,identifier,name,client_id,client_secret,acceptable_client_ids,scopes,pkce_enabled,attribute_mapping,authorization_params,enabled,email_optional,issuer,discovery_url,skip_nonce_check,cached_discovery,discovery_cached_at,authorization_url,token_url,userinfo_url,jwks_uri,created_at,updated_at,custom_claims_allowlist

@@ -70,3 +70,7 @@ dist/
 
 # dataconnect generated files
 .dataconnect
+
+# Database backups (sensitive data — never push)
+supabase/backup/
+*.dburl
